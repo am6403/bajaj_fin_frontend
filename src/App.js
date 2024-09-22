@@ -20,7 +20,7 @@ const App = () => {
     try {
       const parsedInput = JSON.parse(input);
 
-      const res = await fetch("bajaj-fin-backend-g90rbcoe0-ashishs-projects-0441f300.vercel.app", {
+      const res = await fetch("https://bajaj-fin-backend1.onrender.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
